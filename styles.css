@@ -1,0 +1,638 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.pre-header {
+  height: 60px;
+  background-color: #111618;
+  color: #fff;
+  padding-top: 15px;
+}
+
+.pre-header .secondary-menu {
+  list-style: none;
+}
+
+.pre-header .secondary-menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #707374;
+  text-transform: uppercase;
+}
+
+.pre-header .secondary-menu li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.main-nav .main-menu li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.main-nav .main-menu li a {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-nav .main-menu .free-quote-btn a {
+  background-color: #4f33f1;
+  padding: 6px;
+  color: white;
+}
+
+.main-nav .main-menu .free-quote-btn a:hover {
+  background-color: transparent;
+  color: #4f33f1;
+  text-decoration: none;
+  border: solid 1px;
+  transition: 0.3s ease;
+}
+
+.main-nav .logo {
+  margin-top: 11px;
+}
+
+.main-nav .main-menu {
+  margin-top: 2px;
+}
+
+.hero-section {
+  background-image: url(./img/hero-backgorud.jpg);
+  padding-top: 125px;
+  padding-bottom: 125px;
+  background-size: cover;
+}
+
+.hero-section h3 {
+  font-size: 20px;
+  color: white;
+}
+
+.hero-section h1 {
+  font-size: 52px;
+  color: white;
+}
+
+.hero-section a {
+  background-color: #4f33f1;
+  text-transform: uppercase;
+  color: white;
+  padding: 6px;
+  border: solid 1px;
+  transition: 0.3s ease;
+  text-decoration: none;
+  margin-top: 25px;
+  display: inline-block;
+  margin-left: -22px;
+}
+
+.hero-section a:hover {
+  background-color: transparent;
+  color: #4f33f1;
+  text-decoration: none;
+}
+
+.my-projects {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.my-projects .services {
+  text-align: center;
+  font-weight: bold;
+  font-size: 52px;
+}
+
+.my-projects h3 {
+  text-align: center;
+}
+
+.my-projects p {
+  text-align: center;
+}
+
+.my-projects .slika1-background {
+  margin-top: 40px;
+  background-color: #1b1f20;
+  -webkit-box-shadow: -1px 6px 9px 3px rgba(0, 0, 0, 0.85);
+  box-shadow: -1px 6px 9px 3px rgba(0, 0, 0, 0.85);
+}
+
+.my-projects .slika2-background {
+  margin-top: 40px;
+  background-color: #1b1f20;
+  -webkit-box-shadow: -1px 6px 9px 3px rgba(0, 0, 0, 0.85);
+  box-shadow: -1px 6px 9px 3px rgba(0, 0, 0, 0.85);
+}
+
+.my-projects .slika3-background {
+  margin-top: 40px;
+  background-color: #1b1f20;
+  -webkit-box-shadow: -1px 6px 9px 3px rgba(0, 0, 0, 0.85);
+  box-shadow: -1px 6px 9px 3px rgba(0, 0, 0, 0.85);
+}
+
+.my-projects .slika1-background h3 {
+  color: white;
+}
+
+.my-projects .slika2-background h3 {
+  color: white;
+}
+
+.my-projects .slika3-background h3 {
+  color: white;
+}
+
+.my-projects .slika3-background p {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.my-projects .slika2-background p {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.my-projects .slika1-background p {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.my-projects .slika1-background .info-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  border: solid 1px;
+  padding: 6px;
+  margin-left: 100px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: #1b1f20;
+  color: white;
+  font-size: 15px;
+  font-weight: 580;
+  transition: 0.2s;
+}
+
+.my-projects .slika2-background .info-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  border: solid 1px;
+  padding: 6px;
+  margin-left: 100px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: #1b1f20;
+  color: white;
+  font-size: 15px;
+  font-weight: 580;
+  transition: 0.2s;
+}
+
+.my-projects .slika3-background .info-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  border: solid 1px;
+  padding: 6px;
+  margin-left: 100px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: #1b1f20;
+  color: white;
+  font-size: 15px;
+  font-weight: 580;
+  transition: 0.2s;
+}
+
+.my-projects .slika1-background:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    360deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(73, 9, 121, 1) 40%,
+    rgba(0, 212, 255, 0.9780287114845938) 86%
+  );
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.my-projects .slika2-background:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    360deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(73, 9, 121, 1) 40%,
+    rgba(0, 212, 255, 0.9780287114845938) 86%
+  );
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.my-projects .slika3-background:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    360deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(73, 9, 121, 1) 40%,
+    rgba(0, 212, 255, 0.9780287114845938) 86%
+  );
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.my-projects h1 {
+  font-size: 38px;
+  text-transform: uppercase;
+  color: #1b1f20;
+}
+
+.my-projects h3 {
+  color: #4f33f1;
+}
+
+.my-projects .small-text {
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.howitworks {
+  background-image: url(/img/howitworks.jpg);
+  background-size: cover;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.howitworks h3 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #7663e2;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.howitworks p {
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.howitworks h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.howitworks .modal-class {
+  margin-bottom: -35px;
+  margin-left: 160px;
+}
+
+.howitworks .modal .modal-dialog {
+  max-width: 800px;
+}
+
+.howitworks .modal .modal-dialog .modal-content {
+  background-color: transparent;
+  border: 0px;
+}
+
+.howitworks .modal .modal-dialog .modal-header {
+  border: 0;
+}
+
+.howitworks .modal .modal-dialog .modal-body .embed-responsive-item {
+  width: 700px;
+  height: 393.75px;
+}
+
+.costumers {
+  margin-top: 120px;
+}
+
+.costumers .cost1klasa {
+  background-image: url(/img/cost1.jpg);
+  width: 250px;
+  height: 360px;
+  background-position: center;
+}
+
+.costumers .cost2klasa {
+  background-image: url(/img/cost2.jpg);
+  width: 250px;
+  height: 360px;
+  background-position: center;
+}
+
+.costumers .cost3klasa {
+  background-image: url(/img/cost3.jpg);
+  width: 250px;
+  height: 360px;
+  background-position: center;
+}
+
+.costumers .cost4klasa {
+  background-image: url(/img/cost4.jpg);
+  width: 250px;
+  height: 360px;
+  background-position: center;
+}
+
+.costumers h4 {
+  margin-top: -5px;
+  margin-left: 5px;
+  color: rgb(221, 221, 221);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.costumers h3 {
+  margin-left: 5px;
+  padding-top: 290px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.costumers .cost1klasa .overlay {
+  background-color: rgb(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+.costumers .cost2klasa .overlay {
+  background-color: rgb(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+.costumers .cost3klasa .overlay {
+  background-color: rgb(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+.costumers .cost4klasa .overlay {
+  background-color: rgb(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+.costumers h5 {
+  color: #7663e2;
+  border-bottom: 1px dotted gray;
+  padding: 10px;
+}
+
+.costumers h5::before {
+  content: "";
+  display: inline-block;
+  background-color: #1d00c0;
+  width: 10px;
+  height: 10px;
+  margin-right: 17px;
+}
+
+.about-us {
+  margin-top: 80px;
+  background-image: url(/img/about.jpg);
+  background-size: cover;
+}
+
+.about-us .abouth2 {
+  color: white;
+  padding-top: 20px;
+}
+
+.about-us .abouth3 {
+  color: white;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.about-us .aboutul {
+  color: white;
+  margin-left: 18px;
+  margin-top: 20px;
+}
+
+.about-us .aboutimg {
+  margin-top: 1px;
+  width: 600px;
+  height: 600px;
+}
+
+.about-us .aboutUs {
+  margin-top: 35px;
+  color: white;
+  border-bottom: 1px dotted gray;
+  padding: 10px;
+}
+
+.about-us .aboutUs::before {
+  content: "";
+  display: inline-block;
+  background-color: #1d00c0;
+  width: 10px;
+  height: 10px;
+  margin-right: 17px;
+}
+
+.cyber-school {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.cyber-school h2 {
+  color: #4f33f1;
+}
+
+.cyber-school .school-inner {
+  background-image: url(/img/school.jpg);
+}
+
+.cyber-school .school-inner .school-overlay .learnBTN {
+  color: white;
+  background-color: #4f33f1;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.cyber-school .school-inner .school-overlay h3 {
+  font-size: 45px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.cyber-school .school-inner .school-overlay p {
+  color: white;
+  font-weight: 200;
+}
+
+.cyber-school .school-inner .school-overlay .conference {
+  background-color: #4f33f1;
+  padding: 3px;
+  margin-right: 15px;
+}
+
+.cyber-school .school-inner .school-overlay .date {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.cyber-school .school-inner .school-overlay {
+  background-color: rgb(0, 0, 0, 0.4);
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.cyber-school .school-inner .school-overlay .countdown {
+  font-size: 50px;
+  color: white;
+  font-weight: 300;
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.input-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(/img/about.jpg);
+  background-size: cover;
+}
+
+.input-section p {
+  color: white;
+}
+
+.input-section h6 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-bottom: 1px dotted white;
+  padding: 5px;
+}
+
+.input-section h5 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-bottom: 1px dotted white;
+  padding: 5px;
+}
+
+.input-section h5:before {
+  content: "";
+  display: inline-block;
+  background-color: #1d00c0;
+  width: 10px;
+  height: 10px;
+  margin-right: 15px;
+}
+
+.input-section h4 {
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.input-section form {
+  background-color: rgb(0, 0, 0, 0.4);
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  padding: 50px;
+}
+
+.input-section textarea,
+.input-section input,
+.input-section button {
+  width: 100%;
+  border: 0;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.input-section textarea {
+  height: 80px;
+}
+
+.input-section input,
+.input-section button {
+  height: 40px;
+}
+
+.input-section button {
+  color: white;
+  background-color: #4f33f1;
+  margin-top: 31px;
+  font-weight: 500;
+}
+
+.input-section label {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+}
+
+.input-section h2 {
+  text-align: center;
+  color: white;
+}
+
+.input-section .wecanhelp {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.footer {
+  height: 80px;
+  background-color: #111618;
+}
+
+.footer .footer-menu ul li {
+  display: inline-block;
+  margin-top: 23px;
+}
+
+.footer .footer-menu ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.footer .footer-menu ul li a:before {
+  content: "";
+  display: inline-block;
+  background-color: #1d00c0;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.footer .footer-menu p {
+  color: white;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
